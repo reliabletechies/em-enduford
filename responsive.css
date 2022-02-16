@@ -1,0 +1,91 @@
+@media(max-width: 700px){
+  /* Header starts here  */
+    .text-box h1{
+        font-size: 38px;
+    }
+    .nav-links ul li{
+        display: block;
+    }
+    .nav-links{
+        position: absolute;
+        background-color: #30201fbf;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: -200px;
+        text-align: left;
+        z-index: 2;
+        transition: 1s;
+
+    }
+    .nav-links ul li {
+      border: 3px solid #6eaa70;
+      border-radius: 15px;
+      margin: 15px;
+      text-align: center;
+      color: #8df7c2;
+    }
+    .nav-links ul li:hover{
+      
+
+    }
+
+
+    nav .fas{
+      display:block;
+      color: #ffffff;
+      margin: 10px;
+      font-size: 22px;
+      cursor:pointer;
+    }
+    .nav-links ul {
+      padding:  30px;
+    }
+
+  /* Header ends here  */
+
+  /* -------course for starts here -------  */ 
+
+  .row{
+    flex-direction: column;
+  }
+  /* -------course for Ends here -------  */ 
+  
+  /* ---------------campus for starts here--------- */
+  /* ---------------campus for Ends here--------- */
+
+  /* -------------facilties start for here--------  */
+
+  .facilties-col h1{
+    text-align: center;
+}
+
+  
+  /* -------------facilties ends for here--------  */
+
+  /* ----------------testimonials starts for here------  */
+  .testimonial-col img{
+    
+    margin-left: 0px;
+    margin-right: 15px;
+    
+}
+  /* ----------------testimonials Ends for here------  */
+
+  /* --------------call To Action starts for here--------   */
+.cta h1{
+  font-size: 21px;
+}
+
+  /* --------------call To Action Ends for here--------   */
+
+
+
+
+
+
+
+
+
+
+}
